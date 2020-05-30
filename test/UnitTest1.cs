@@ -12,7 +12,7 @@ namespace test
         [Fact]
         public void ReturnSingleValue() {
             Value expectedResult = new Value { Id = 1, Name = "Value1"};
-            Value returnValue = controller.GetValueById(1);
+            Value returnValue = controller.GetValueById(2);
             Assert.Equal(expectedResult.Id, returnValue.Id);
         }
 
