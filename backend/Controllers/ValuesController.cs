@@ -13,6 +13,7 @@ namespace backend.Controllers
                 new Value{ Id = 2, Name = "Value2"},
                 new Value{ Id = 3, Name = "Value3"},
                 new Value{ Id = 4, Name = "Value4"},
+                new Value{ Id = 5, Name = "Value5"}
             };
         [HttpGet]
         public IActionResult GetValues() {
